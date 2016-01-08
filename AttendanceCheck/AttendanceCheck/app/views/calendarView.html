@@ -1,0 +1,9 @@
+﻿<div id="calendarContainer">
+    <h4>
+        <label for="team">Team:</label>
+
+        <select id="teamId" name="team" ng-model="team" ng-change="update()" ng-options="team.name for team in teams"></select>
+    </h4>
+
+    <div id="calendar"></div>
+</div>

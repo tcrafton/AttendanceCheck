@@ -1,0 +1,16 @@
+﻿<h4>
+    <label for="id">Select Name:</label>
+    <select ng-model="playerId" ng-change="update()" ng-options="player.FullName for player in players"></select>
+
+    <label for="year">Year:</label>
+    <select ng-model="year" ng-change="update()" ng-options="x for x in selectedYear"></select>
+</h4>
+
+<h4></h4>
+
+<h5>
+    <p>Hours Vacation Taken/Scheduled: {{hoursVacation}}</p>
+    <p>Hours Sick Taken/Scheduled: {{hoursSick}}</p>
+</h5>
+
+<div id="calendarView" style="padding: 10px"></div>

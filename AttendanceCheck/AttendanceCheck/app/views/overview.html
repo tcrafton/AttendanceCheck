@@ -1,0 +1,19 @@
+﻿<h2>Days Absent</h2>
+
+<div id="overviewContainer">
+    <h4>
+        <label for="team">Team:</label>
+
+        <select id="teamId" name="team" ng-model="team" ng-change="update()" ng-options="team.name for team in teams"></select>
+    </h4>
+
+    <hr />
+
+    <div id="absenceList" data-ng-repeat="(FullName, employees) in absences">
+        <h4>{{ FullName }}</h4>
+        <ul>
+            <li data-ng-repeat="employee in employees">{{employee.AbsenceDate}}</li>
+        </ul>
+    </div>
+
+</div>
