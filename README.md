@@ -7,9 +7,9 @@ overview that displays overall taken/scheduled vacation or sick days.
 This project is read-only, nothing setup for adding/editing data.  No backend has been setup, data is stored in objects.
 
 Libraries/Frameworks Used:
-AngularJS
-Bootstrap
-Lodash (very little)
+AngularJS,
+Bootstrap,
+Lodash (very little),
 FullCalendar
 
 
